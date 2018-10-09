@@ -1,0 +1,35 @@
+#+REVEAL_ROOT: file:///home/anarcroth/reveal.js
+#+REVEAL_THEME: moon
+#+REVEAL_TRANS: zoom
+#+REVEAL_SPEED: 0.5
+#+Title: What is Open Source
+#+OPTIONS: reveal_slide_number:h/v num:nil
+
+* Free as in Freedom
+
+#+BEGIN_NOTES
+Many people, when they hear "Open Source", they think - "Oh, that's just free software", or "That's software that you can see the source code and you can distribute it". Although this is technically correct, to the extend we use it on a day-to-day basis, there is something much deeper behind the idea of *Open Source*. It's not just about being able to see how someone implemented something, or just getting software for free, it's about what that symbolizes, what it means to be free, what it means to have control over what you are doing. It means that you are a part of a moral movement, that tries to make the world better.
+
+The Linux kernel isn't just simply free, it *gives you freedom*. You, the user, have the freedom to choose, what you want, what you can have, what you are agreeing to. There are plenty of things in life that are simply "free of charge", but just a few things give you moral freedom.
+
+Let's take a walk down memory lane (in a time when we weren't born and things were much more UNIX like :P) and see how Open Source began. And, hopefully, by the end, you will see the significance of it!
+#+END_NOTES
+
+* This is me
+
+- email: mdn150@aubg.edu
+- Linux user, git lover, typing enthusiast
+
+* Once upon a time
+
+#+BEGIN_NOTES
+Once upon a time, there was darkness... Then a bearded man came, and on the first day he created a compiler. Then on the second day he created a text editor, it was the best editor known to man.
+#+END_NOTES
+
+* The GPL
+
+* The Linux kernel
+
+* RMS and Torvalds
+
+* The amazing world of Open Source
