@@ -45,19 +45,27 @@ On the zeroth day God created a compiler, something that would transform human r
 * The Linux kernel
 
 #+BEGIN_NOTES
-
+The Linux kernel was just a good operating system. It did what it needed to do, through the tried and true method, of being a monolith that provided an area where all the other programs can collaborate and work together. In the beginning, maybe, the most important thing was having a C-compiler, which allowed for more work to be done.
 #+END_NOTES
 
-* RMS and Torvalds
+* What about the market?
 
 #+BEGIN_NOTES
+Because all of these things were actually given out for free, as in, no money, this was something completely different for the time. Well, not exactly. Before Microsoft came and predominated the world with the idea about proprietary software, people just shared code to one another, but after the lawyers flooded the stage, business changed. So how does the idea about open software compares to the needs of the user?
 
+The thing is that, for the needs of the market, people either had the choice to pay a license and get support form a monopoly, i.e. some company that owned the code, or they could invest in some open source project and have many, many people be able to help and improve the product as it develops. Of course, since that was a high risk tactic, not a lot of people were ready to take on it. The first company that really invested into open source was called *CYGNUS*.
+
+But even with the help and funding of CYGNUS, the market was still struggling with these independent hackers. This is where Netscape comes into play. Netscape was the first major company that released it's software out in the open. It became - Open Source.
+
+But an important distinction must be made. Open Source doesn't mean "public domain". The public domain means that anyone can get something, tinker with it, create something that is proprietary and we are at square one. The public domain doesn't maintain the sate of having "freedom". And nothing is more important than being free.
 #+END_NOTES
 
 * The GPL
 
 #+BEGIN_NOTES
+So the way we deal with this is through the most important license that was ever made - The GNU General Public License. This license actually tells you, and if you read it you will see, that you can get a copy, distribute, modify, sell and make a profit, from the hereby presented software, but you cannot hinder any of these capabilities, once you get the software. What this means is that, this license allows you to distribute an open product that allows you to choose what you are getting, allows you to see what you can do with it, no hidden stuff, no shenanigans.
 
+There are thousands of products that are licensed under this, even the Linux kernel is one such example. It may not be the most elegant license, but it sure is important.
 #+END_NOTES
 
 * The amazing world of Open Source
