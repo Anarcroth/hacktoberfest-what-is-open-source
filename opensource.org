@@ -22,14 +22,32 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 
 * Once upon a time
 
+There was a great philosopher and a great engineer.
+
 #+BEGIN_NOTES
-Once upon a time, there was darkness... Then a bearded man came, and on the first day he created a compiler. Then on the second day he created a text editor, it was the best editor known to man.
+Once upon a time, there was darkness... A world filled with Microsoft labels, lawyers, bugs, legal contracts, and dirty money. **DISCLAIMER**: These are all jokes and pokes towards Microsoft, I don't mean this to be a circle-jerk of GNU/Linux people. Then a bearded man came. And much like all great bearded people, he was not found of how the world of software was stated. He was constrained be proprietary software that had bugs and didn't want to have an open community. So he was in front of a moral dilemma - should he use software that didn't cherish the freedom of the user? That's why he made a decision, to create his own operating system, which he would distribute openly, invite other people to use it, this solving the dilemma of having to choose between closed, "malicious" software. And thus, the GNU Operating System was born.
 #+END_NOTES
 
-* The GPL
+* The GNU Operating System
+
+#+BEGIN_NOTES
+
+#+END_NOTES
 
 * The Linux kernel
 
+#+BEGIN_NOTES
+
+#+END_NOTES
+
 * RMS and Torvalds
 
+#+BEGIN_NOTES
+
+#+END_NOTES
+
 * The amazing world of Open Source
+
+#+BEGIN_NOTES
+
+#+END_NOTES
