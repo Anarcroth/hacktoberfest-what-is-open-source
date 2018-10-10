@@ -71,5 +71,9 @@ There are thousands of products that are licensed under this, even the Linux ker
 * The amazing world of Open Source
 
 #+BEGIN_NOTES
+Throughout the years, Open Source has managed to create an amazing community, filled with hackers who want to be part of a moral movement and make something useful. We want to help and get out brilliant idea out there so it can do something. We want to fix things.
 
+There are so many things that are open source, that we use today, that we are not aware of. The whole software world works because of open software. We cannot live without it. And we know that's the case because we cannot see it. It's not obvious because it's doing its job so well, that we don't need to notice it.
+
+Here are some examples - Mozilla Firefox is Open Source, so is the Linux Kernel, together with the thousand distributions it comes with, VIM, Emacs, and Git are also Open Source... So are all of the libraries that come from the Apache foundation, OpenSSL, cryptographic libraries, with which we make sure that our connections (through which we make business), libraries with which we analyze data, gather data, create medical software that cures people, software that connects people together, software that allows for planes to fly, ships to ship, and cars to car (Tesla are releasing their kernel as well!). Our phones use open source, our PCs, MACs, vending machines... Yes they are not all 100% open and free, but they do rely on this community. We are this community, we are the hackers that make the world work.
 #+END_NOTES
