@@ -24,7 +24,7 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 
 * Once upon a time
 
-There was a great philosopher and a great engineer.
+There was a great *philosopher* and a great *engineer*.
 
 #+REVEAL: split
 
@@ -77,3 +77,13 @@ There are so many things that are open source, that we use today, that we are no
 
 Here are some examples - Mozilla Firefox is Open Source, so is the Linux Kernel, together with the thousand distributions it comes with, VIM, Emacs, and Git are also Open Source... So are all of the libraries that come from the Apache foundation, OpenSSL, cryptographic libraries, with which we make sure that our connections (through which we make business), libraries with which we analyze data, gather data, create medical software that cures people, software that connects people together, software that allows for planes to fly, ships to ship, and cars to car (Tesla are releasing their kernel as well!). Our phones use open source, our PCs, MACs, vending machines... Yes they are not all 100% open and free, but they do rely on this community. We are this community, we are the hackers that make the world work.
 #+END_NOTES
+
+* Final Words
+
+#+BEGIN_NOTES
+I want us to go back and hear what RMS has to say about the movement he has created.
+
+I want us to be hackers, smart, playful, building something useful. In the words of the great Rich Hickey - "If you are not fixing something with your code, then why do you code at all..."
+#+END_NOTES
+
+* References
