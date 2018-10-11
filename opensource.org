@@ -88,11 +88,25 @@ else
 }
 #+END_SRC
 
+** You know, just simple stuff
+
+#+ATTR_HTML: :width 80% :height 80% :style border:0px solid black;
+[[./pics/kernel.jpg]]
+
 #+BEGIN_NOTES
 The Linux kernel was just a good operating system. It did what it needed to do, through the tried and true method, of being a monolith that provided an area where all the other programs can collaborate and work together. In the beginning, maybe, the most important thing was having a C-compiler, which allowed for more work to be done.
 #+END_NOTES
 
 * What about the market?
+
+| Year | Version | Lines of Code |  Users |
+| 1991 |    0.01 | 10,000        |      1 |
+| 1992 |    0.96 | 40,000        |   1000 |
+| 1993 |    0.99 | 100,000       |  20000 |
+| 1995 |     1.2 | 250,000       | 500000 |
+| 1997 |     2.1 | 800,000       | 3.5mil |
+| 1998 |    2.11 | 1.5mil        | 7.5mil |
+| 1999 |     2.2 | 2.2mil        |  12mil |
 
 #+BEGIN_NOTES
 Because all of these things were actually given out for free, as in, no money, this was something completely different for the time. Well, not exactly. Before Microsoft came and predominated the world with the idea about proprietary software, people just shared code to one another, but after the lawyers flooded the stage, business changed. So how does the idea about open software compares to the needs of the user?
