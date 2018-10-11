@@ -6,7 +6,7 @@
 #+REVEAL_MIN_SCALE: 1
 #+REVEAL_MAX_SCALE: 2
 #+Title: What is Open Source
-#+OPTIONS: reveal_slide_number:c/t num:nil reveal_center
+#+OPTIONS: toc:nil reveal_slide_number:c/t num:nil reveal_center
 
 * Free as in Freedom
 
@@ -20,20 +20,30 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 
 * This is me
 
+#+ATTR_REVEAL: :frag (roll-in)
 - email: mdn150@aubg.edu
-- Linux user, git lover, typing enthusiast
+- Twitter: @mnestorov
+- Linux user, git lover, Emacs maniac, typing enthusiast!
 
-[kbpic]()
+#+REVEAL: split
+
+#+ATTR_HTML: :style border:0px solid black;
+[[./pics/kb1.jpg]]
 
 * Once upon a time
 
 There was a great *philosopher* and a great *engineer*.
 
-#+REVEAL: split
+** The philosopher
 
-The philosopher
+#+ATTR_HTML: :width 90% :height 90% :style border:0px solid black;
+[[./pics/rms1.jpg]]
 
-[rms]()
+
+** The Engineer
+
+#+ATTR_HTML: :width 90% :height 90% :style border:0px solid black;
+[[./pics/lt1.jpg]]
 
 #+BEGIN_NOTES
 Once upon a time, there was darkness... A world filled with Microsoft labels, lawyers, bugs, legal contracts, and dirty money. **DISCLAIMER**: These are all jokes and pokes towards Microsoft, I don't mean this to be a circle-jerk of GNU/Linux people. Then a bearded man came. And much like all great bearded people, he was not found of how the world of software was stated. He was constrained be proprietary software that had bugs and didn't want to have an open community. So he was in front of a moral dilemma - should he use software that didn't cherish the freedom of the user? That's why he made a decision, to create his own operating system, which he would distribute openly, invite other people to use it, this solving the dilemma of having to choose between closed, "malicious" software. And thus, the GNU Operating System was born.
@@ -49,11 +59,34 @@ day[2]->make_best_editor_ever();
 
 #+REVEAL: split
 
+#+ATTR_HTML: :width 18% :height 18% :style border:0px solid black;
+[[./pics/vim.png]]
+
+#+ATTR_REVEAL: :frag (shrink)
+#+ATTR_HTML: :width 20% :height 20% :style border:0px solid black;
+[[./pics/wrong.png]]
+
+#+REVEAL: split
+
+#+ATTR_HTML: :width 50% :height 50% :style border:0px solid black;
+[[./pics/emacs.png]]
+
 #+BEGIN_NOTES
 On the zeroth day God created a compiler, something that would transform human readable code into something that the machine would understand. On day one, he created a debugger, a tool which helped the programmer to find bugs, and see in what state is the program in any given time. On day two, he created the best text editor in the world. Then for the rest of the days, one by one, each program that was needed to be written, in order for an Operating System to exit, was created. In the end only one thing was missing - a kernel, the thing that allocates resources and reads from the disk, in order for other programs to work properly.
 #+END_NOTES
 
 * The Linux kernel
+
+#+BEGIN_SRC C +n 0
+if (kernel.c_str() == "linux")
+{
+    kernel->be_awesome();
+}
+else
+{
+    printf("%s \n", "Oh no you're doing it wrong :(");
+}
+#+END_SRC
 
 #+BEGIN_NOTES
 The Linux kernel was just a good operating system. It did what it needed to do, through the tried and true method, of being a monolith that provided an area where all the other programs can collaborate and work together. In the beginning, maybe, the most important thing was having a C-compiler, which allowed for more work to be done.
@@ -72,6 +105,10 @@ But an important distinction must be made. Open Source doesn't mean "public doma
 #+END_NOTES
 
 * The GPL
+
+#+ATTR_REVEAL: :frag (shrink)
+#+ATTR_HTML: :width 100% :height 100% :style border:0px solid black;
+[[./pics/gpl3.png]]
 
 #+BEGIN_NOTES
 So the way we deal with this is through the most important license that was ever made - The GNU General Public License. This license actually tells you, and if you read it you will see, that you can get a copy, distribute, modify, sell and make a profit, from the hereby presented software, but you cannot hinder any of these capabilities, once you get the software. What this means is that, this license allows you to distribute an open product that allows you to choose what you are getting, allows you to see what you can do with it, no hidden stuff, no shenanigans.
