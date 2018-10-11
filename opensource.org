@@ -180,3 +180,10 @@ I want us to be hackers, smart, playful, building something useful. In the words
 #+END_NOTES
 
 * References
+
+- [[https://www.youtube.com/watch?v=jw8K460vx1c][Revolution OS]]
+- [[http://www.unterstein.net/su/docs/CathBaz.pdf][The Cathedral and the Bazaar]]
+- [[https://opensource.org/osd][The Open Source Definition]]
+- [[https://www.gnu.org/][GNU]]
+- [[https://www.gnu.org/philosophy/free-software-intro.en.html][Free Software Movement]]
+- [[https://www.gnu.org/licenses/gpl-3.0.en.html][GPL 3]]
