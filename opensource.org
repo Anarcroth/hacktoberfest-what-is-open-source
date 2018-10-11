@@ -8,7 +8,7 @@
 #+Title: What is Open Source
 #+OPTIONS: toc:nil reveal_slide_number:c/t num:nil reveal_center
 
-* Free as in Freedom
+* Free as in /Freedom/
 
 #+BEGIN_NOTES
 Many people, when they hear "Open Source", they think - "Oh, that's just free software", or "That's software that you can see the source code and you can distribute it". Although this is technically correct, to the extend we use it on a day-to-day basis, there is something much deeper behind the idea of *Open Source*. It's not just about being able to see how someone implemented something, or just getting software for free, it's about what that symbolizes, what it means to be free, what it means to have control over what you are doing. It means that you are a part of a moral movement, that tries to make the world better.
@@ -20,9 +20,14 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 
 * This is me
 
+#+ATTR_HTML: :width 60% :height 60% :style border:0px solid black;
+[[./pics/me.jpg]]
+
+#+REVEAL: split
+
 #+ATTR_REVEAL: :frag (roll-in)
-- email: mdn150@aubg.edu
-- Twitter: @mnestorov
+- *email*: mdn150@aubg.edu
+- *Twitter*: @mnestorov
 - Linux user, git lover, Emacs maniac, typing enthusiast!
 
 #+REVEAL: split
@@ -84,7 +89,7 @@ if (kernel.c_str() == "linux")
 }
 else
 {
-    printf("%s \n", "Oh no you're doing it wrong :(");
+    printf("%s \n", "Oh no, you're doing it wrong :(");
 }
 #+END_SRC
 
@@ -175,10 +180,18 @@ Here are some examples - Mozilla Firefox is Open Source, so is the Linux Kernel,
 
 * Final Words
 
+*"If you are not fixing a problem, then why are you building software?"*
+
+/- Rich Hickey/
+
+#+REVEAL: split
+
+[[./pics/rms_final_words1.webm]]
+
 #+BEGIN_NOTES
 I want us to go back and hear what RMS has to say about the movement he has created.
 
-I want us to be hackers, smart, playful, building something useful. In the words of the great Rich Hickey - "If you are not fixing something with your code, then why do you code at all..."
+I want us to be hackers, smart, playful, building something useful. In the words of the great Rich Hickey - "If you are not fixing a problem, then why are you building software?"
 #+END_NOTES
 
 * References
