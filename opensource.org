@@ -1,9 +1,12 @@
-#+REVEAL_ROOT: file:///home/anarcroth/reveal.js
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: zoom
 #+REVEAL_SPEED: 0.5
+#+REVEAL_HLEVEL: 1
+#+REVEAL_MARGIN: 7
+#+REVEAL_MIN_SCALE: 1
+#+REVEAL_MAX_SCALE: 2
 #+Title: What is Open Source
-#+OPTIONS: reveal_slide_number:h/v num:nil
+#+OPTIONS: reveal_slide_number:c/t num:nil reveal_center
 
 * Free as in Freedom
 
@@ -38,8 +41,16 @@ Once upon a time, there was darkness... A world filled with Microsoft labels, la
 
 * The GNU Operating System
 
+#+BEGIN_SRC C +n 0
+day[0]->add_compiler();
+day[1]->create_debugger();
+day[2]->make_best_editor_ever();
+#+END_SRC
+
+#+REVEAL: split
+
 #+BEGIN_NOTES
-On the zeroth day God created a compiler, something that would transform human readable code into something that the machine would understand . On day one, he created a debugger, a tool which helped the programmer to find bugs, and see in what state is the program in any given time. On day two, he created the best text editor in the world. Then for the rest of the days, one by one, each program that was needed to be written, in order for an Operating System to exit, was created. In the end only one thing was missing - a kernel, the thing that allocates resources and reads from the disk, in order for other programs to work properly.
+On the zeroth day God created a compiler, something that would transform human readable code into something that the machine would understand. On day one, he created a debugger, a tool which helped the programmer to find bugs, and see in what state is the program in any given time. On day two, he created the best text editor in the world. Then for the rest of the days, one by one, each program that was needed to be written, in order for an Operating System to exit, was created. In the end only one thing was missing - a kernel, the thing that allocates resources and reads from the disk, in order for other programs to work properly.
 #+END_NOTES
 
 * The Linux kernel
@@ -98,6 +109,7 @@ Now let's go back and look at the definition we didn't give in the beginning abo
 
 9. If you distribute a product, let's say on a CD, together with another program, your software cannot say that "the other program must also be free, otherwise you cannot distribute my software".
 #+END_NOTES
+
 * The amazing world of Open Source
 
 #+BEGIN_NOTES
