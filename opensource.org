@@ -68,6 +68,36 @@ So the way we deal with this is through the most important license that was ever
 There are thousands of products that are licensed under this, even the Linux kernel is one such example. It may not be the most elegant license, but it sure is important.
 #+END_NOTES
 
+* Redefining Open Source
+
+#+ATTR_REVEAL: :frag (roll-in)
+ * 1. Free Distribution
+ * 2. Source Code Available
+ * 3. Derived Works Permit
+ * 4. Integrity of the Author's Source Code
+ * 5. No Discrimination against people or groups
+ * 6. No Discrimination against fields of endeavor
+ * 7. Distribution of License
+ * 8. The License cannot be specific to a product
+ * 9. The License cannot contaminate other software products
+
+#+BEGIN_NOTES
+Now let's go back and look at the definition we didn't give in the beginning about Open Source. It isn't anymore a simple example of sharing code. Actually, there is the so called *Open Source Definition*, which specifies what Open Source is. And in it, there are 9 rules which we follow.
+
+1. This doesn't mean "free" as in no price, it means liberty! You are free to share this piece of work with anyone who wants it. Price is of no matter here, you can charge for it or give it out for free.
+
+2. It has to come with source code, so that someone can maintain the project and be able to add new features to it, or fix bugs.
+
+3. If someone were to improve your program, they should be able to distribute that result.
+
+4. This means that the author can maintain his honor. And if you change their program you might also have to change the name of the program or mark out the change very clearly, so that the change doesn't reflect the original author.
+
+6. This means that the software must be usable in a business as well as in a school.
+
+7. Whoever gets the product also gets the same license that gives the same rights to the user. And if that license is passed to a third person, then he can also use it without a problem under the same conditions.
+
+9. If you distribute a product, let's say on a CD, together with another program, your software cannot say that "the other program must also be free, otherwise you cannot distribute my software".
+#+END_NOTES
 * The amazing world of Open Source
 
 #+BEGIN_NOTES
