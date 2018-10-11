@@ -6,18 +6,18 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="./css/reveal.css"/>
+<link rel="stylesheet" href="file:///home/anarcroth/reveal.js/css/reveal.css"/>
 
-<link rel="stylesheet" href="./css/moon.css" id="theme"/>
+<link rel="stylesheet" href="file:///home/anarcroth/reveal.js/css/theme/moon.css" id="theme"/>
 
-
+<link rel="stylesheet" href="file:///home/anarcroth/reveal.js/lib/css/zenburn.css"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
     if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '/css/pdf.css';
+        link.href = 'file:///home/anarcroth/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -25,12 +25,12 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">What is Open Source</h1>
+<section id="sec-title-slide"><h1 class="title">What is Open Source</h1><p class="date">Created: 2018-10-11 Thu 18:12</p>
 </section>
 
 <section>
-<section id="slide-org9ab8295">
-<h2 id="org9ab8295">Free as in <i>Freedom</i></h2>
+<section id="slide-orgbad222c">
+<h2 id="orgbad222c">Free as in <i>Freedom</i></h2>
 <aside class="notes">
 <p>
 Many people, when they hear "Open Source", they think - "Oh, that's just free software", or "That's software that you can see the source code and you can distribute it". Although this is technically correct, to the extend we use it on a day-to-day basis, there is something much deeper behind the idea of <b>Open Source</b>. It's not just about being able to see how someone implemented something, or just getting software for free, it's about what that symbolizes, what it means to be free, what it means to have control over what you are doing. It means that you are a part of a moral movement, that tries to make the world better.
@@ -49,8 +49,8 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 </section>
 </section>
 <section>
-<section id="slide-org644174e">
-<h2 id="org644174e">This is me</h2>
+<section id="slide-org6251135">
+<h2 id="org6251135">This is me</h2>
 
 <div class="figure">
 <p><img src="./pics/me.jpg" alt="me.jpg" width="60%" height="60%" style="border:0px solid black;" />
@@ -79,15 +79,15 @@ Let's take a walk down memory lane (in a time when we weren't born and things we
 </section>
 </section>
 <section>
-<section id="slide-orgf31d7b7">
-<h2 id="orgf31d7b7">Once upon a time</h2>
+<section id="slide-orgad13a85">
+<h2 id="orgad13a85">Once upon a time</h2>
 <p>
 There was a great <b>philosopher</b> and a great <b>engineer</b>.
 </p>
 
 </section>
-<section id="slide-org4af3f34">
-<h3 id="org4af3f34">The philosopher</h3>
+<section id="slide-org7dabfd8">
+<h3 id="org7dabfd8">The philosopher</h3>
 
 <div class="figure">
 <p><img src="./pics/rms1.jpg" alt="rms1.jpg" width="90%" height="90%" style="border:0px solid black;" />
@@ -96,8 +96,8 @@ There was a great <b>philosopher</b> and a great <b>engineer</b>.
 
 
 </section>
-<section id="slide-orgd3f70c0">
-<h3 id="orgd3f70c0">The Engineer</h3>
+<section id="slide-orgdfe929b">
+<h3 id="orgdfe929b">The Engineer</h3>
 
 <div class="figure">
 <p><img src="./pics/lt1.jpg" alt="lt1.jpg" width="90%" height="90%" style="border:0px solid black;" />
@@ -114,14 +114,14 @@ Once upon a time, there was darkness&#x2026; A world filled with Microsoft label
 </section>
 </section>
 <section>
-<section id="slide-orgc53356a">
-<h2 id="orgc53356a">The GNU Operating System</h2>
+<section id="slide-org1a3d479">
+<h2 id="org1a3d479">The GNU Operating System</h2>
 <div class="org-src-container">
 
-<pre  class="src src-C"><span class="linenr">0: </span><span style="color: #66D9EF;">day</span><span style="color: #AE81FF;">[</span>0<span style="color: #AE81FF;">]</span>-&gt;add_compiler<span style="color: #AE81FF;">()</span>;
-<span class="linenr">1: </span><span style="color: #66D9EF;">day</span><span style="color: #AE81FF;">[</span>1<span style="color: #AE81FF;">]</span>-&gt;create_debugger<span style="color: #AE81FF;">()</span>;
-<span class="linenr">2: </span><span style="color: #66D9EF;">day</span><span style="color: #AE81FF;">[</span>2<span style="color: #AE81FF;">]</span>-&gt;make_best_editor_ever<span style="color: #AE81FF;">()</span>;
-</pre>
+<pre><code class="C" ><span class="linenr">0: </span>day[0]->add_compiler();
+<span class="linenr">1: </span>day[1]->create_debugger();
+<span class="linenr">2: </span>day[2]->make_best_editor_ever();
+</code></pre>
 </div>
 
 </section>
@@ -158,24 +158,24 @@ On the zeroth day God created a compiler, something that would transform human r
 </section>
 </section>
 <section>
-<section id="slide-orgec30bb6">
-<h2 id="orgec30bb6">The Linux kernel</h2>
+<section id="slide-org033d6ed">
+<h2 id="org033d6ed">The Linux kernel</h2>
 <div class="org-src-container">
 
-<pre  class="src src-C"><span class="linenr">2: </span><span style="color: #F92672;">if</span> <span style="color: #AE81FF;">(</span>kernel.c_str<span style="color: #66D9EF;">()</span> == <span style="color: #E6DB74;">"linux"</span><span style="color: #AE81FF;">)</span>
-<span class="linenr">3: </span><span style="color: #AE81FF;">{</span>
-<span class="linenr">4: </span>    kernel-&gt;be_awesome<span style="color: #66D9EF;">()</span>;
-<span class="linenr">5: </span><span style="color: #AE81FF;">}</span>
-<span class="linenr">6: </span><span style="color: #F92672;">else</span>
-<span class="linenr">7: </span><span style="color: #AE81FF;">{</span>
-<span class="linenr">8: </span>    printf<span style="color: #66D9EF;">(</span><span style="color: #E6DB74;">"%s </span><span style="color: #AE81FF;">\</span><span style="color: #E6DB74;">n</span><span style="color: #E6DB74;">"</span>, <span style="color: #E6DB74;">"Oh no, you're doing it wrong :("</span><span style="color: #66D9EF;">)</span>;
-<span class="linenr">9: </span><span style="color: #AE81FF;">}</span>
-</pre>
+<pre><code class="C" ><span class="linenr">2: </span>if (kernel.c_str() == "linux")
+<span class="linenr">3: </span>{
+<span class="linenr">4: </span>    kernel->be_awesome();
+<span class="linenr">5: </span>}
+<span class="linenr">6: </span>else
+<span class="linenr">7: </span>{
+<span class="linenr">8: </span>    printf("%s \n", "Oh no, you're doing it wrong :(");
+<span class="linenr">9: </span>}
+</code></pre>
 </div>
 
 </section>
-<section id="slide-org5bde42f">
-<h3 id="org5bde42f">You know, just simple stuff</h3>
+<section id="slide-org31cc2a2">
+<h3 id="org31cc2a2">You know, just simple stuff</h3>
 
 <div class="figure">
 <p><img src="./pics/kernel.jpg" alt="kernel.jpg" width="80%" height="80%" style="border:0px solid black;" />
@@ -192,8 +192,8 @@ The Linux kernel was just a good operating system. It did what it needed to do, 
 </section>
 </section>
 <section>
-<section id="slide-org0a8aaf6">
-<h2 id="org0a8aaf6">What about the market?</h2>
+<section id="slide-org864b783">
+<h2 id="org864b783">What about the market?</h2>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -287,8 +287,8 @@ But an important distinction must be made. Open Source doesn't mean "public doma
 </section>
 </section>
 <section>
-<section id="slide-orgc4bb959">
-<h2 id="orgc4bb959">The GPL</h2>
+<section id="slide-org998a8e1">
+<h2 id="org998a8e1">The GPL</h2>
 
 <div class="figure">
 <p><img src="./pics/gpl3.png" alt="gpl3.png" class="fragment (shrink)" width="100%" height="100%" style="border:0px solid black;" />
@@ -309,8 +309,8 @@ There are thousands of products that are licensed under this, even the Linux ker
 </section>
 </section>
 <section>
-<section id="slide-org272eb10">
-<h2 id="org272eb10">Redefining Open Source</h2>
+<section id="slide-org0326678">
+<h2 id="org0326678">Redefining Open Source</h2>
 <ul>
 <li class="fragment roll-in">1. Free Distribution</li>
 <li class="fragment roll-in">2. Source Code Available</li>
@@ -351,8 +351,8 @@ Now let's go back and look at the definition we didn't give in the beginning abo
 </section>
 </section>
 <section>
-<section id="slide-org484c1e0">
-<h2 id="org484c1e0">The amazing world of Open Source</h2>
+<section id="slide-orgf94bcf3">
+<h2 id="orgf94bcf3">The amazing world of Open Source</h2>
 
 <div class="figure">
 <p><img src="./pics/opensource.jpg" alt="opensource.jpg" />
@@ -377,8 +377,8 @@ Here are some examples - Mozilla Firefox is Open Source, so is the Linux Kernel,
 </section>
 </section>
 <section>
-<section id="slide-org250384f">
-<h2 id="org250384f">Final Words</h2>
+<section id="slide-orgc7fa640">
+<h2 id="orgc7fa640">Final Words</h2>
 <p>
 <b>"If you are not fixing a problem, then why are you building software?"</b>
 </p>
@@ -391,8 +391,7 @@ Here are some examples - Mozilla Firefox is Open Source, so is the Linux Kernel,
 <section >
 
 <p>
-<video src="./pics/rms_final_words1.webm" controls>
-</video>
+<a href="./pics/rms_final_words1.webm">./pics/rms_final_words1.webm</a>
 </p>
 
 <aside class="notes">
@@ -409,8 +408,8 @@ I want us to be hackers, smart, playful, building something useful. In the words
 </section>
 </section>
 <section>
-<section id="slide-orgac61d87">
-<h2 id="orgac61d87">References</h2>
+<section id="slide-org7ccba37">
+<h2 id="org7ccba37">References</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=jw8K460vx1c">Revolution OS</a></li>
 <li><a href="http://www.unterstein.net/su/docs/CathBaz.pdf">The Cathedral and the Bazaar</a></li>
@@ -424,8 +423,8 @@ I want us to be hackers, smart, playful, building something useful. In the words
 </section>
 </div>
 </div>
-<script src="./js/head.min.js"></script>
-<script src="./js/reveal.js"></script>
+<script src="file:///home/anarcroth/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/anarcroth/reveal.js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -455,11 +454,14 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: './js/classList.js', condition: function() { return !document.body.classList; } },
- { src: './js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: './js/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'file:///home/anarcroth/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '', async: true },
+ { src: 'file:///home/anarcroth/reveal.js/plugin/multiplex/master.js', async: true }]
 });
 </script>
 </body>

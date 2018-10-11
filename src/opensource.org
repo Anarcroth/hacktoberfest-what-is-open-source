@@ -5,6 +5,7 @@
 #+REVEAL_MARGIN: 7
 #+REVEAL_MIN_SCALE: 1
 #+REVEAL_MAX_SCALE: 2
+#+REVEAL_PLUGINS: (classList markdown highlight zoom notes multiplex)
 #+Title: What is Open Source
 #+OPTIONS: toc:nil reveal_slide_number:c/t num:nil reveal_center
 
