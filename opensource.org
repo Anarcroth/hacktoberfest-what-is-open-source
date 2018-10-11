@@ -163,6 +163,8 @@ Now let's go back and look at the definition we didn't give in the beginning abo
 
 * The amazing world of Open Source
 
+[[./pics/opensource.jpg]]
+
 #+BEGIN_NOTES
 Throughout the years, Open Source has managed to create an amazing community, filled with hackers who want to be part of a moral movement and make something useful. We want to help and get out brilliant idea out there so it can do something. We want to fix things.
 
